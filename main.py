@@ -1,2 +1,8 @@
-squares = {x: x*x for x in range(5)}
-print(squares)
+#set()
+users = set()
+users = {"Tom", "Molly", "Bob", "Alice"}
+users.add("Sam")
+print(users)
+print(len(users))
+users.add("Alice")
+print(len(users))
